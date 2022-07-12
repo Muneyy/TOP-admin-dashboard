@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="dashboard">
+            <h1>Welcome</h1>
+            <nav class="nav-1">
+                <a href="#"><span class="whitespace"></span> Home</a>
+                <a href="#"><span class="whitespace"></span> Profile</a>
+                <a href="#"><span class="whitespace"></span> Messages</a>
+                <a href="#"><span class="whitespace"></span> History</a>
+                <a href="#"><span class="whitespace"></span> Tasks</a>
+                <a href="#"><span class="whitespace"></span> Communities</a>
+            </nav>
+            <nav class="nav-2">
+                <a href="#"><span class="whitespace"></span> Settings</a>
+                <a href="#"><span class="whitespace"></span> Support</a>
+                <a href="#"><span class="whitespace"></span> Privacy</a>
+            </nav>
+        </div>
+        <div class="placeholder">
+            <div class="header card">
+                <div class="header-first-row">
+                    <div class="header-search">
+                        <svg class="svg-icon" viewBox="0 0 20 20">
+                            <path d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z"></path>
+                        </svg>
+                        <label for="search-bar">Search</label>
+                        <input type="search" name="search-bar" id="search-bar">
+                    </div>
+                    <div class="header-user-notif">
+                        <object data="./images/hat.svg" width="30em" height="auto"></object>
+                        <object data="./images/tombstone.svg" width="30em" height="auto"></object>
+                        <h2 id="username">Jennifer Huh</h2>
+                    </div>
+                </div>
+                <div class="header-second-row">
+                    <div class="user-profile">
+                        <div class="user-display">
+                            <object data="./images/hat.svg" width="50em" height="auto"></object>
+                        </div>
+                        <div class="user-welcome">
+                            <p>Hi there,</p>
+                            <h2>Jennifer Huh (@Yunjin)</h2>
+                        </div>
+                    </div>
+                    <div class="user-interact">
+                        <div class="user-interact-buttons">
+                            <button id="New">New</button>
+                            <button id="Upload">Upload</button>
+                            <button id="Share">Share</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="article">
+                <div class="article-first-column">
+                    <div class="article-header">
+                        <p>Your Projects</p>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                            <h4>Cool Something</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                 dolore magna aliqua. </p>
+                            <div class="card-buttons">
+                                <button id="Favorite">
+                                    <object data="./images/bat.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="See">
+                                    <object data="./images/eye.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="Share">
+                                    <object data="./images/broom.svg" width="20em" height="auto"></object>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4>Cool Something</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                 dolore magna aliqua. </p>
+                            <div class="card-buttons">
+                                <button id="Favorite">
+                                    <object data="./images/bat.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="See">
+                                    <object data="./images/eye.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="Share">
+                                    <object data="./images/broom.svg" width="20em" height="auto"></object>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4>Cool Something</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                 dolore magna aliqua. </p>
+                            <div class="card-buttons">
+                                <button id="Favorite">
+                                    <object data="./images/bat.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="See">
+                                    <object data="./images/eye.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="Share">
+                                    <object data="./images/broom.svg" width="20em" height="auto"></object>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4>Cool Something</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                 dolore magna aliqua. </p>
+                            <div class="card-buttons">
+                                <button id="Favorite">
+                                    <object data="./images/bat.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="See">
+                                    <object data="./images/eye.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="Share">
+                                    <object data="./images/broom.svg" width="20em" height="auto"></object>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4>Cool Something</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                 dolore magna aliqua. </p>
+                            <div class="card-buttons">
+                                <button id="Favorite">
+                                    <object data="./images/bat.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="See">
+                                    <object data="./images/eye.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="Share">
+                                    <object data="./images/broom.svg" width="20em" height="auto"></object>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h4>Cool Something</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                 dolore magna aliqua. </p>
+                            <div class="card-buttons">
+                                <button id="Favorite">
+                                    <object data="./images/bat.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="See">
+                                    <object data="./images/eye.svg" width="20em" height="auto"></object>
+                                </button>
+                                <button id="Share">
+                                    <object data="./images/broom.svg" width="20em" height="auto"></object>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article-second-column">
+                    <div class="article-header">
+                        <p>Announcements</p>
+                    </div>
+                    <div class="card announcement-card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="article-header">
+                        <p>Trending</p>
+                    </div>
+                    <div class="card trending-card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
